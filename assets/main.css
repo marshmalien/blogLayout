@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+}
+/*
+==========================
+Header
+==========================
+*/
+header, footer, aside {
+  display: block;
+}
+header {
+  background-image: url("images/houstonSkyline.jpg");
+  position: fixed;
+  width: 100%;
+  height: 240px;
+  background-position: 40%;
+  top: 0;
+  float: left;
+  z-index: 10;
+}
+header img {
+  border-radius: 100%;
+  width: 80px;
+  border: white;
+  border-style: solid;
+  border-width: 5px;
+  position: fixed;
+  top: 199px;
+  left: 167px;
+}
+/*
+==========================
+Aside
+==========================
+*/
+
+aside {
+  float: left;
+  position: fixed;
+  top: 290px;
+  width: 164px;
+  margin-left: 170px;
+}
+input[type="text"] {
+  width: 160px;
+  height: 20px;
+  border-radius: 5px;
+  border-color: #EBEBEB;
+  border-width: 1px;
+  border-style: solid;
+}
+::-webkit-input-placeholder {
+  color: #EBEBEB;
+}
+hr {
+  color: #F3F3F3;
+  border-style: solid;
+  border-width: 1px;
+}
+/*
+==========================
+Content
+==========================
+*/
+section {
+  clear: left;
+  float: left;
+  position: relative;
+  top: 270px;
+  width: 45%;
+  margin-left: 400px;
+}
+img {
+  width: 420px;
+}
+/*
+==========================
+Font
+==========================
+*/
+article p {
+  font-weight: "PT Serif", Georgia, Times, serif;
+  font-style: normal;
+  font-size: 18px;
+  color: #606669;
+  line-height: 30px;
+}
+aside p {
+  color: #C6C4C4;
+  line-height: 20px;
+}
+label {
+  color: #C6C4C4;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "helvetica", sans-serif;
+}
+.aside h3 {
+  font-size: 13px;
+  color: #6A6F79;
+  font-family: "helvetica"
+}
+h1,
+h3,
+ {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+h1 {
+  color: #444B4E;
+  font-size: 33px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  line-height: 45px;
+}
+h4 {
+  color: #68667C;
+  font-style: italic;
+  font-size: 14px;
+  font-family: "PT Serif", Georgia, serif;
+  font-weight: normal;
+  margin-bottom: 5px;
+  padding-bottom: 15px;
+}
+a {
+  text-decoration: none;
+  color: #60A3C6;
+}
+/*
+==========================
+Div Alert
+==========================
+*/
+div.alert {
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  right: 50px;
+  bottom: -200px;
+  border: solid #F3F3F3 1px;
+  border
+  border-radius: 10px;
+}
+.alert:active {
+  display: none;
+}
+span {
+  position: absolute;
+  right: 10px;
+}
+div h3 {
+  font-family: "helvetica", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  padding: 0 0 0 10px;
+  margin: 5px 0 0 0;
+}
+div img {
+  width: 35px;
+  float: left;
+  margin-left: 10px;
+}
+div h4 {
+  padding: 0 0 0 10px;
+  margin: 0px 5px;
+  float: left;
+  font-size: 14px;
+}
+div p {
+  padding: 0 0 0 10px;
+  margin: 0px 5px;
+  float: left;
+}
+
+input[type="submit"] {
+  background-color: #33BDFD;
+  border-radius: 2px;
+  border-width: 0;
+  color: #fff;
+  width: 70px;
+  height: 30px;
+  float: right;
+  position: absolute;
+  right: -4px;
+  margin: 0 10px 10px 0;
+}
+
+div hr {
+  margin: 10px;
+}
